@@ -3,3 +3,6 @@
 ################################################################################
 
 /PathTracer/PathTracer/bin/Debug/netcoreapp1.1
+/PathTracer/PathTracer/obj
+/PathTracer/PathTracer/obj
+/PathTracer/PathTracer/obj

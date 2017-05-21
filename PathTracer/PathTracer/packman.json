@@ -1,0 +1,19 @@
+{
+  "packages": {
+    "twitter-bootstrap": {
+      "path": "wwwroot/lib/twitter-bootstrap",
+      "version": "3.3.7"
+    },
+    "font-awesome": {
+      "path": "wwwroot/lib/font-awesome",
+      "version": "4.7.0"
+    },
+    "jquery": {
+      "path": "wwwroot/lib/jquery",
+      "version": "3.2.1",
+      "files": [
+        "jquery.min.js"
+      ]
+    }
+  }
+}
