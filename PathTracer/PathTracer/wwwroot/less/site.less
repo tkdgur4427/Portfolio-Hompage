@@ -32,14 +32,13 @@ h6{
     font-weight: 800;
 }
 
-a{
-    color:@gray-dark;
+a {
+    color: @gray-dark;
     // hover selector is used to select elements when you mouse over them
     &:hover,
     // select the element that has focus
-    &:focus{
-        // the cursor indicates that something can be zoomed in
-        cursor: zoom-in;
+    &:focus {
+        color: @theme-primary;
     }
 }
 

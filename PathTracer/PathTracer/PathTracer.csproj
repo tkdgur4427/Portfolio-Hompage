@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Content Include="wwwroot\css\site.css" />
+    <Content Include="wwwroot\documents\about.html" />
     <Content Include="wwwroot\index.html" />
     <Content Include="wwwroot\js\site.js" />
     <Content Include="wwwroot\less\mixins.less" />
