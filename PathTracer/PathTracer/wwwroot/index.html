@@ -22,21 +22,56 @@
 </head>
 <body>
     <!-- navigation -->
+    <!-- a navigation bar is a navigation header that is placed at the top of the page -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <!-- 
+            containers
+                - boot strap requires a containing element to wrap site contents
+                - .container; provide a representative fixed width container
+                - .container-fluid; provide a 'full width container', spanning the entire width of the viewport
+        -->
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <!--
+                        <span> is used to group inline-elements in a document
+                            - provide a way to add a hook to a part of a text or a part of a document
+                    -->
+                    <!--
+                        'sr-only'
+                            - used to hide information intended only for screen readers from the layout of the rendered page
+                    -->
                     <span class="sr-only">Toggle navigation</span>       
-                    Menu <i class="fa fa-bars"></i>
+                    Menu 
+                    <!--
+                        <i> and <span> elements are widely used to add icons
+                            - to insert an icon, add the name of the icon class to any inline HTML element
+                        <i> defines a part of text in an alternative voice or mood(displayed in italic) when it in <p> 
+                    -->
+                    <i class="fa fa-bars"></i>
                 </button>
+                <!--
+                    navbar-brand
+                        - it can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles
+                        - ex. for your company, product, or project name
+                -->
                 <a class="navbar-brand" href="index.html">PathTracer</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--
+                .collapse.navbar-collapse
+                    - for grouping and hiding navbar contents by a parent breakpoint                    
+            -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!--
+                    navbar-nav
+                        - for a full-height and lightweight navigation (including support for dropdowns)
+                -->
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
