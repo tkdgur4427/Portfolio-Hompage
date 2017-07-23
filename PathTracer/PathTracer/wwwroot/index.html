@@ -66,6 +66,8 @@
             -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <!--
+                    nav               
+                        - navbar navigation links build on our .nav option with their own modifier class and require the use of toggler classes for proper responsive styling
                     navbar-nav
                         - for a full-height and lightweight navigation (including support for dropdowns)
                 -->
@@ -79,12 +81,32 @@
 
     <!-- Page Header -->
     <!-- set your background image for this header on the line below -->
-    <header class="intro-header" style="background-image: url('images/home-bg.jpg')">
+    <!--
+        background-image
+            - set one or more background images for an element
+    -->
+    <header class="intro-header">
+        <!--
+            container
+                - provide a means to center your site's contents
+            row
+                - horizontal groups of columns that ensure your columns are lined up properly
+                - use the negative margin method on .row to ensure all your content is aligned properly down the left side
+
+        -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
                         <h1>PathTracer Blog</h1>
+                        <!--
+                            hr
+                                - define a thematic change in the content
+                            span
+                                - used to group inline-elements in a document
+                                - provide no visual change by itself
+                                - provide a way to add hook to a part of a text or a part of a documnet
+                        -->
                         <hr class="small" />
                         <span class="subheading">SangHyeok Hong</span>
                     </div>
@@ -95,46 +117,44 @@
 
     <!-- main content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-preview">
+                <a>
+                    <h2 class="post-title">
+                        Test0
+                    </h2>
+                    <h3 class="post-subtitle">
+                        TestSub0
+                    </h3>
+                </a>
+                <p class="post-meta">
                     <a>
-                        <h2 class="post-title">
-                            Test0
-                        </h2>
-                        <h3 class="post-subtitle">
-                            TestSub0
-                        </h3>
+                        ParagraphTest0
                     </a>
-                    <p class="post-meta">
-                        <a>
-                            ParagraphTest0
-                        </a>
-                        ParagraphTest1
-                    </p>
-                </div>
-                <hr />
-                <div class="post-preview">
-                    <a>
-                        <h2 class="post-title">
-                            Test1
-                        </h2>
-                    </a>
-                    <p>
-                        ParagraphTest2
-                    </p>
-                </div>
-                <hr />
-                <!-- pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                    ParagraphTest1
+                </p>
             </div>
+            <hr />
+            <div class="post-preview">
+                <a>
+                    <h2 class="post-title">
+                        Test1
+                    </h2>
+                </a>
+                <p>
+                    ParagraphTest2
+                </p>
+            </div>
+            <hr />
+            <!-- pager -->
+            <ul class="pager">
+                <li class="next">
+                    <a href="#">Older Posts &rarr;</a>
+                </li>
+            </ul>
+            <hr />
         </div>
-    </div>
-    <hr />
+    </div>    
 
     <!-- footer -->
     <footer>
@@ -142,23 +162,16 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="#">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                        <a href="https://github.com/tkdgur4427">
+                             <!--
+                                font-awesome library                           
+                                fa stack
+                                    - to stack multiple icons, use the 'fa-stack' class on the parent
+                                fa-stack-1x
+                                    - for regularly sized icon and 'fa-stack-2x' for the larger icon
+                                fa-inverse
+                                    - used as an alternative icon color
+                            -->
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -166,7 +179,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                <p class="copyright text-muted">Copyright &copy; PathTacer 2017</p>
             </div>
         </div>
     </footer>

@@ -193,30 +193,51 @@ hr.small{
 }
 
 // header
-.intro-header{
-    background-color: @gray-light;
-    background: no-repeat center center;
-    background-attachment: scroll;
-    .background-cover;
+.intro-header {
+    // background-color
+    //  - specify the background color of an element
+    // background-image
+    //  - an image to use as the background of an element
+    //  - background-image: url("paper.gif");
+    // background-image; repeat property
+    //  - background-repeat: repeat-x(or y)
+    // background-image; set position and no-repeat
+    //  - background-repeat: no-repeat
+    //  - background-position: right-top
+    // background-image; fixed psition
+    //  - to specify the background image should be fixed (will not scroll with the rest of the page)
+    // background
+    //  - to shorten the code, it is possible to specify all the background properties in one single property
+    //  - need to follow the order like background-color, background-image, background-repeat, background-attachment, background-position
+    background-color: @background-color-base;
+    // not need to set the following properties, those are related to background-images
+    //background: no-repeat center center;
+    //background-attachment: scroll;
+    //.background-cover;
     // note - background images are set within the HTML using inline CSS!
     margin-bottom: 50px;
+
     .site-heading,
     .post-header,
-    .page-heading{
+    .page-heading {
         padding: 100px, 0 50px;
         color: white;
-        @media only screen and (min-width: 768px){
+
+        @media only screen and (min-width: 768px) {
             padding: 150px 0;
         }
     }
+
     .site-heading,
-    .page-heading{
+    .page-heading {
         text-align: center;
-        h1{
+
+        h1 {
             margin-top: 0;
             font-size: 50px;
         }
-        .subheading{
+
+        .subheading {
             font-size: 24px;
             line-height: 1.1;
             display: block;
@@ -224,41 +245,49 @@ hr.small{
             font-weight: 300;
             margin: 10px 0 0;
         }
-        @media only screen and (min-width: 768px){
-            h1{
+
+        @media only screen and (min-width: 768px) {
+            h1 {
                 font-size: 80px;
             }
         }
     }
-    .post-heading{
-        h1{
+
+    .post-heading {
+        h1 {
             font-size: 35px;
         }
+
         .subheading,
-        .meta{
+        .meta {
             line-height: 1.1;
             display: block;
         }
-        .subheading{
+
+        .subheading {
             .snas-serif-font;
             font-size: 24px;
             margin: 10px 0 30px;
             font-weight: 600;
         }
-        .meta{
+
+        .meta {
             .serif-font;
             font-style: italic;
             font-weight: 300;
             font-size: 20px;
-            a{
+
+            a {
                 color: white;
             }
         }
-        @media only screen and (min-width: 768px){
-            h1{
+
+        @media only screen and (min-width: 768px) {
+            h1 {
                 font-size: 55px;
             }
-            .subheading{
+
+            .subheading {
                 font-size: 30px;
             }
         }
@@ -267,12 +296,12 @@ hr.small{
 
 // post preview pages
 .post-preview{
+    // >; meaning that select direct children(or descendants)
     > a{
         color: @gray-dark;
         &:hover,
         &:focus{
-            text-decoration: none;
-            color: @theme-primary;
+            text-decoration: underline;
         }
         >.post-title{
             font-size: 30px;
@@ -295,7 +324,6 @@ hr.small{
             color: @gray-dark;
             &:hover,
             &:focus{
-                color: @theme-primary;
                 text-decoration: underline;
             }
         }
@@ -306,6 +334,23 @@ hr.small{
                 font-size: 36px;
             }
         }
+    }
+}
+
+// post entry element style
+.post-entry-title {
+    font-size: 32px;
+}
+
+.post-entry{
+    >.post-entry-header{
+       
+    }
+    >.post-entry-content{
+
+    }
+    >.post-entry-footer{
+
     }
 }
 
