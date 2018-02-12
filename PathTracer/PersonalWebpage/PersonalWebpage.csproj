@@ -5,7 +5,23 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="wwwroot\css\pure\**" />
+      <Content Remove="wwwroot\css\pure\**" />
+      <EmbeddedResource Remove="wwwroot\css\pure\**" />
+      <None Remove="wwwroot\css\pure\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\css\site.css" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="css\" />
+      <Folder Include="wwwroot\css\" />
     </ItemGroup>
 
 </Project>

@@ -9,3 +9,14 @@ C:\Users\Brian\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Deb
 C:\Users\Brian\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.AssemblyInfo.cs
 C:\Users\Brian\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.dll
 C:\Users\Brian\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.pdb
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\bin\Debug\netcoreapp1.1\PersonalWebpage.deps.json
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\bin\Debug\netcoreapp1.1\PersonalWebpage.runtimeconfig.json
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\bin\Debug\netcoreapp1.1\PersonalWebpage.runtimeconfig.dev.json
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\bin\Debug\netcoreapp1.1\PersonalWebpage.dll
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\bin\Debug\netcoreapp1.1\PersonalWebpage.pdb
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.csprojResolveAssemblyReference.cache
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.csproj.CoreCompileInputs.cache
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.AssemblyInfoInputs.cache
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.AssemblyInfo.cs
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.dll
+C:\Users\hsh6679\Source\Repos\Portfolio-Hompage\PathTracer\PersonalWebpage\obj\Debug\netcoreapp1.1\PersonalWebpage.pdb
