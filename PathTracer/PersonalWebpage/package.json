@@ -2,6 +2,10 @@
   "name": "myproject",
   "version": "1.0.0",
   "devDependencies": {
-    "purecss": "^1.0.0"
-  }
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-rename": "1.2.2",
+    "purecss": "1.0.0"
+  },
+  "dependencies": {}
 }

@@ -1,0 +1,8 @@
+﻿body {
+    background: center;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: Georgia, 'Times New Roman', "Times New Roman", serif;
+}

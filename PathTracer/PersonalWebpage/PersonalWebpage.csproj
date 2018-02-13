@@ -6,17 +6,17 @@
 
     <ItemGroup>
       <Compile Remove="lib\**" />
-      <Compile Remove="wwwroot\css\**" />
       <Content Remove="lib\**" />
-      <Content Remove="wwwroot\css\**" />
       <EmbeddedResource Remove="lib\**" />
-      <EmbeddedResource Remove="wwwroot\css\**" />
       <None Remove="lib\**" />
-      <None Remove="wwwroot\css\**" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="AspNetCore.StaticSiteHelper" Version="1.0.9" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\css\" />
     </ItemGroup>
 
 </Project>
