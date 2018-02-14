@@ -1,8 +1,19 @@
-﻿body {
-    background: center;
-}
-
-html, button, input, select, textarea,
+﻿html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: Georgia, 'Times New Roman', "Times New Roman", serif;
+}
+
+/* custom class for css3*/
+.header {
+    max-width: 820px;
+    margin: auto;
+    color: #333;
+    text-align: center;
+    padding: 1em 0.5em 0 0.5em;
+    border-bottom: 1px solid #eee;
+}
+
+/* inherit from <a>; hyper-link */
+.custom-menu a {
+    
 }
