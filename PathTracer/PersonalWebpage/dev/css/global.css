@@ -1,6 +1,8 @@
-﻿html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    font-family: Georgia, 'Times New Roman', "Times New Roman", serif;
+﻿/* importing pure-min.css file */
+@import "../../node_modules/purecss/build/pure-min.css";
+
+body {
+    color: #777;
 }
 
 /* custom class for css3*/
@@ -9,11 +11,104 @@
     margin: auto;
     color: #333;
     text-align: center;
-    padding: 1em 0.5em 0 0.5em;
+    padding: 1em 0.5em 0.5em 0.5em;
     border-bottom: 1px solid #eee;
+}
+
+.content {
+    max-width: 820px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 1.6em;
+}
+
+/* custom-menu default */
+.custom-menu {
+    text-align: left;
 }
 
 /* inherit from <a>; hyper-link */
 .custom-menu a {
-    
+    color: #777;
+    line-height: 1.5em;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* inherit from <ul> */
+.custom-menu ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 2em;
+}
+
+/* inherit from <li> */
+.custom-menu li {
+    display: inline-block;
+}
+
+/* inherited multiple html element */
+.custom-menu li a {
+    padding: 0.25em 0;
+    margin: 0 15px;
+}
+
+.menu-heading {
+    font-size: 2.5em;
+}
+
+/* projects */
+.projects {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 820px;
+}
+
+.content-subhead {
+    margin: 8px 0 20px 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+/* experience.html */
+.experiences {
+    max-width: 820px;
+    margin: 0 auto;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+/*experience element*/
+.experience-element {
+    clear: left;
+    padding-top: 20px;
+}
+
+.experience-element-text {
+
+}
+
+.experience-element-image {
+
+}
+
+.experience-element-footer {
+    float: right;
+}
+
+.divider-container {
+    clear: both;
+    padding-top: 8px;
+}
+
+hr.divider {
+    border: 0;
+    width: 600px;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0))
 }
