@@ -50,7 +50,7 @@ body {
 /* inherited multiple html element */
 .custom-menu li a {
     padding: 0.25em 0;
-    margin: 0 15px;
+    margin: 0 12px;
 }
 
 .menu-heading {
@@ -96,6 +96,11 @@ body {
 
 .experience-element-footer {
     float: right;
+}
+
+.experience-element-footer a:link {
+    text-decoration: none;
+    color: #6fbef3;
 }
 
 .divider-container {
