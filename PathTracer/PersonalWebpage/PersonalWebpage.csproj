@@ -6,9 +6,13 @@
 
     <ItemGroup>
       <Compile Remove="lib\**" />
+      <Compile Remove="wwwroot\documents\NewFolder\**" />
       <Content Remove="lib\**" />
+      <Content Remove="wwwroot\documents\NewFolder\**" />
       <EmbeddedResource Remove="lib\**" />
+      <EmbeddedResource Remove="wwwroot\documents\NewFolder\**" />
       <None Remove="lib\**" />
+      <None Remove="wwwroot\documents\NewFolder\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -17,7 +21,8 @@
 
     <ItemGroup>
       <Folder Include="wwwroot\css\" />
-      <Folder Include="wwwroot\documents\" />
+      <Folder Include="wwwroot\img\" />
+      <Folder Include="wwwroot\res\" />
     </ItemGroup>
 
 </Project>
