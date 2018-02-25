@@ -8708,11 +8708,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\Source\\Repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\PersonalWebpage.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\source\\repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\PersonalWebpage.csproj",
       "projectName": "PersonalWebpage",
-      "projectPath": "C:\\Users\\Brian\\Source\\Repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\PersonalWebpage.csproj",
+      "projectPath": "C:\\Users\\Brian\\source\\repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\PersonalWebpage.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\Source\\Repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\source\\repos\\Portfolio-Hompage\\PathTracer\\PersonalWebpage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
